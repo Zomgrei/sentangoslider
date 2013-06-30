@@ -11,7 +11,8 @@ As webmaster of the Florida Garrison of the 501st Legion (http://www.fl501st.com
 To get this to work, you will need to have jQuery 1.3 or higher. It may work on older versions of jQuery, but use at your own risk, as the only version I've tested thus far are 1.3.2, but as I develop new features I will be trying to bring it up to par with the later version of jQuery (the version out at the time I write this, 6/30/2013, is 1.10).
 
 ##Usage
-```$(document).ready(function() {
+```
+$(document).ready(function() {
 	var scroller = new imageScroller({
 		container: "#slides-wrapper",
 		containerBuffer: 20,
